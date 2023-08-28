@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ODS1">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/inicio2"
+        android:layout_width="447dp"
+        android:layout_height="77dp"
+        android:background="@color/teal_700"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="-18dp"
+        tools:layout_editor_absoluteY="-8dp" />
+
+    <TextView
+        android:id="@+id/textinicio2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ODS"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/ods1image"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/ods1_pdf"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <TextView
+        android:id="@+id/ods1title"
+        android:layout_width="364dp"
+        android:layout_height="58dp"
+        android:layout_marginEnd="24dp"
+        android:text="Objetivo 1. Acabar com a pobreza em todas as suas formas, em todos os lugares"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <TextView
+        android:id="@+id/ods1text1"
+        android:layout_width="368dp"
+        android:layout_height="54dp"
+        android:text="1.1 Até 2030, erradicar a pobreza extrema para todas as pessoas em todos os lugares, atualmente medida como pessoas vivendo com menos de US$ 1,90 por dia"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <TextView
+        android:id="@+id/ods1text2"
+        android:layout_width="373dp"
+        android:layout_height="72dp"
+        android:text="1.2 Até 2030, reduzir pelo menos à metade a proporção de homens, mulheres e crianças, de todas as idades, que vivem na pobreza, em todas as suas dimensões, de acordo com as definições nacionais"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+    <TextView
+        android:id="@+id/ods1text3"
+        android:layout_width="374dp"
+        android:layout_height="51dp"
+        android:text="1.3 Implementar, em nível nacional, medidas e sistemas de proteção social adequados, para todos, incluindo pisos, e até 2030 atingir a cobertura substancial dos pobres e vulneráveis"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="534dp" />
+
+    <TextView
+        android:id="@+id/ods1text4"
+        android:layout_width="377dp"
+        android:layout_height="130dp"
+        android:text="1.4 Até 2030, garantir que todos os homens e mulheres, particularmente os pobres e vulneráveis, tenham direitos iguais aos recursos econômicos, bem como o acesso a serviços básicos, propriedade e controle sobre a terra e outras formas de propriedade, herança, recursos naturais, novas tecnologias apropriadas e serviços financeiros, incluindo microfinanças"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="585dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

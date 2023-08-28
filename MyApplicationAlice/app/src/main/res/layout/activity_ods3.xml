@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ODS3">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/inicio5"
+        android:layout_width="447dp"
+        android:layout_height="77dp"
+        android:background="@color/teal_700"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="-18dp"
+        tools:layout_editor_absoluteY="-8dp" />
+
+    <TextView
+        android:id="@+id/textinicio5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ODS"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/ods3"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="400dp"
+        android:layout_height="45dp"
+        android:text="Objetivo 3. Assegurar uma vida saudável e promover o bem-estar para todas e todos, em todas as idades"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="370dp"
+        android:layout_height="35dp"
+        android:text="3.1 Até 2030, reduzir a taxa de mortalidade materna global para menos de 70 mortes por 100.000 nascidos vivos"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="403dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="381dp"
+        android:layout_height="98dp"
+        android:text="3.2 Até 2030, acabar com as mortes evitáveis de recém-nascidos e crianças menores de 5 anos, com todos os países objetivando reduzir a mortalidade neonatal para pelo menos 12 por 1.000 nascidos vivos e a mortalidade de crianças menores de 5 anos para pelo menos 25 por 1.000 nascidos vivos"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="380dp"
+        android:layout_height="75dp"
+        android:text="3.3 Até 2030, acabar com as epidemias de AIDS, tuberculose, malária e doenças tropicais negligenciadas, e combater a hepatite, doenças transmitidas pela água, e outras doenças transmissíveis"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="552dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="382dp"
+        android:layout_height="55dp"
+        android:text="3.4 Até 2030, reduzir em um terço a mortalidade prematura por doenças não transmissíveis via prevenção e tratamento, e promover a saúde mental e o bem-estar"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="627dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
